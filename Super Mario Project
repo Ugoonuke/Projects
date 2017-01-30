@@ -1,5 +1,6 @@
-//////////////////////////////////Initilaises Constants & Variables/////////////////////////////////////////
+//This was coded in java using Processing 3.
 
+//////////////////////////////////Initilaises Constants & Variables/////////////////////////////////////////
 Sprite s;
 import ddf.minim.*;         //Import the full minim library.
 Minim minim;
@@ -45,6 +46,7 @@ void setup()
   frameRate(60);
   smooth();
 }
+
 //////////////////////////////////////////Draws World & Sprites/////////////////////////////////////////////
 void draw()
 {
@@ -202,6 +204,7 @@ void draw()
      walk = true;                                    //Goomba degins to walk
    }
 }
+
 ////////////////////////////////////////////Keyborad Inputs/////////////////////////////////////////////////
 void keyPressed()                                       //Listens for when a key is pressed
 {
@@ -253,6 +256,7 @@ void keyPressed()                                       //Listens for when a key
     }
   }
 }
+
 ////////////////////////////////////////////Keyborad Inputs/////////////////////////////////////////////////
 void keyReleased()             //Listens for when a key is released
 {
@@ -274,6 +278,7 @@ void keyReleased()             //Listens for when a key is released
         break;
     }
 }
+
 ///////////////////////////////////////Loads All Goomba Sprite Frames///////////////////////////////////////
 void loadAssets()                                         //Function to load Goomba sprite frames
 {
@@ -283,6 +288,7 @@ void loadAssets()                                         //Function to load Goo
       goomba[i] =  loadImage("g" + (i+1) + ".png");
     }
 }
+
 /////////////////////////////////////////Animates The Goombe Sprite/////////////////////////////////////////
 class Sprite                                       //Class to animate Goomba sprite
 {
