@@ -1,4 +1,5 @@
 //This was coded in java using Processing 3.
+//This is a project to recreate the well known Super Mario game.
 
 //////////////////////////////////Initilaises Constants & Variables/////////////////////////////////////////
 Sprite s;
